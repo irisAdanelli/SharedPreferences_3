@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SharedPreferences_3</string>
+
+    <string-array name="menuspiner">
+        <item>ACUARIO</item>
+        <item>PISIS</item>
+        <item>ARIES</item>
+        <item>TAURO</item>
+        <item>GEMINIS</item>
+        <item>CANCER</item>
+        <item>LEO</item>
+        <item>VIRGO</item>
+        <item>LIBRA</item>
+        <item>ESCORPIO</item>
+        <item>SAGITARIO</item>
+        <item>CAPRICORNIO</item>
+    </string-array>
+
+</resources>

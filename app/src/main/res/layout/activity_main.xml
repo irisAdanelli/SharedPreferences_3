@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#920039"
+    tools:context="mx.edu.ittepic.sharedpreferences_3.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:text="Shared Preferences"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="16dp"
+        android:textColor="#fff"/>
+
+    <EditText android:id="@+id/editmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="#fff"/>
+
+    <RadioGroup android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genero"
+            android:textSize="16dp"
+            android:textColor="#fff"/>
+        <RadioButton android:id="@+id/mas"
+            android:text="Masculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textSize="16dp"
+            android:textColor="#fff"/>
+        <RadioButton android:id="@+id/fem"
+            android:text="Femenino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:textSize="16dp"
+            android:textColor="#fff"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobbies"
+        android:textSize="16dp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"/>
+    <CheckBox android:id="@+id/programar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Escribir"
+        android:textSize="16dp"
+        android:textColor="#fff"/>
+    <CheckBox android:id="@+id/escribir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Programar"
+        android:textSize="16dp"
+        android:textColor="#fff"/>
+    <CheckBox android:id="@+id/trotar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Trotar"
+        android:textSize="16dp"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zodiaco"
+        android:textSize="16dp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"/>
+
+    <Spinner
+        android:id="@+id/opciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@android:color/background_light"
+        android:backgroundTintMode="src_over"
+        android:entries="@array/menuspiner"
+        android:textColor="@android:color/background_light"
+        android:verticalScrollbarPosition="defaultPosition"
+        tools:clickable="true"></Spinner>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button android:id="@+id/saveme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE ME"
+            android:background="#066"
+            android:textColor="#fff"
+            android:layout_marginLeft="50dp"/>
+        <Button android:id="@+id/getme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GET ME"
+            android:background="#066"
+            android:textColor="#fff"
+            android:layout_marginLeft="35dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
